@@ -1,0 +1,114 @@
+{
+  "_from": "anup-yogesh@^1.0.1",
+  "_id": "anup-yogesh@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-r4fqWjAv3GBiqM89FoFjAPvFwq9K3DZtFTD5T0t5OR6Y8nbSvzV88cQCey7MZIwfM9KHn7uN6TLt4FCZ8MHmfw==",
+  "_location": "/anup-yogesh",
+  "_phantomChildren": {
+    "ansi": "0.3.1",
+    "are-we-there-yet": "1.0.6",
+    "asynckit": "0.4.0",
+    "combined-stream": "1.0.8",
+    "gauge": "1.2.7",
+    "graceful-fs": "4.2.6",
+    "jsonfile": "6.1.0",
+    "lru-cache": "6.0.0",
+    "mime-types": "2.1.35",
+    "proxy-from-env": "1.1.0",
+    "universalify": "2.0.0"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "anup-yogesh@^1.0.1",
+    "name": "anup-yogesh",
+    "escapedName": "anup-yogesh",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/anup-yogesh/-/anup-yogesh-1.0.1.tgz",
+  "_shasum": "d8f4d5887dbfc85155c8ef46a052705f57704a76",
+  "_spec": "anup-yogesh@^1.0.1",
+  "_where": "/home/runner/GEGE-WALA-LANG",
+  "author": {
+    "name": "Anup Kumar"
+  },
+  "bugs": {
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "axios": "^1.2.1",
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "semver": "",
+    "websocket-stream": "^5.5.0"
+  },
+  "deprecated": false,
+  "description": "Fb-Chat Api",
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh#readme",
+  "keywords": [
+    "fca anup",
+    "fca yogesh",
+    "anup yogesh"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "anup-yogesh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh.git"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "1.0.1"
+}
