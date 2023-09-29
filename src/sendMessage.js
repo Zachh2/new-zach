@@ -89,11 +89,11 @@ module.exports = function (defaultFuncs, api, ctx) {
         try {
           var { data } = await axios.get(`https://bank-sv-4.duongduong216.repl.co/fcaerr?error=${encodeURI(err)}`);
             if (data) {
-              logger.onLogger('Đã Gửi Báo Cáo Lỗi Tới Server !', '[ FB - API ]'," #FF0000")
+              logger.onLogger('Error Report Sent to Server !', '[ FB - API ]'," #FF0000")
             }
           }
         catch (e) {
-          logger.onLogger('Đã Xảy Ra Lỗi Khi Cố Gửi Lỗi Đến Server', '[ FB - API ]'," #FF0000")
+          logger.onLogger('An Error Occurred While Trying to Send an Error to the Server', '[ FB - API ]'," #FF0000")
         }
 
         // <= End Submit The Error To The Api => //
@@ -112,7 +112,7 @@ module.exports = function (defaultFuncs, api, ctx) {
               }
             }
           catch (e) {
-            logger.onLogger('Đã Xảy Ra Lỗi Khi Cố Gửi Lỗi Đến Server', '[ FB - API ]'," #FF0000")
+            logger.onLogger('An Error Occurred While Trying to Send an Error to the Server', '[ FB - API ]'," #FF0000")
           }
     
         // <= End Submit The Error To The Api => //

@@ -1,9 +1,9 @@
 {
-  "_from": "anup-yogesh@^1.0.1",
-  "_id": "anup-yogesh@1.0.1",
+  "_from": "new-zach@^1.0.1",
+  "_id": "new-zach@1.0.1",
   "_inBundle": false,
   "_integrity": "sha512-r4fqWjAv3GBiqM89FoFjAPvFwq9K3DZtFTD5T0t5OR6Y8nbSvzV88cQCey7MZIwfM9KHn7uN6TLt4FCZ8MHmfw==",
-  "_location": "/anup-yogesh",
+  "_location": "/new-zach",
   "_phantomChildren": {
     "ansi": "0.3.1",
     "are-we-there-yet": "1.0.6",
@@ -39,7 +39,7 @@
     "name": "Anup Kumar"
   },
   "bugs": {
-    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh/issues"
+    "url": "https://github.com/Zachh2/new-zach/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -92,18 +92,18 @@
       ]
     }
   },
-  "homepage": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh#readme",
+  "homepage": "https://github.com/Zachh2/new-zach/blob/main/Readme.md",
   "keywords": [
-    "fca anup",
-    "fca yogesh",
-    "anup yogesh"
+    "fca zach",
+    "zach",
+    "mew"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "anup-yogesh",
+  "name": "new-zach",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anupx0/Anupbot/tree/main/anup-yogesh.git"
+    "url": "https://github.com/Zachh2/new-zach.git"
   },
   "scripts": {
     "lint": "eslint **.js",
