@@ -10,7 +10,7 @@ async function BroadCast() {
 
                 var { data } =  await axios.get("https://raw.githubusercontent.com/Zachh2/chatbot/main/FCA-ZACH.json");
 
-            var random = await data[Math.floor(Math.random() * data.length)] || "Thank You For Using Anup's Fca";
+            var random = await data[Math.floor(Math.random() * data.length)] || "SHISHABLE";
 
         logger(random, "[ ZACH - MAZE ]");
 

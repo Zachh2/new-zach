@@ -20,9 +20,9 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "anup-yogesh@^1.0.1",
-    "name": "anup-yogesh",
-    "escapedName": "anup-yogesh",
+    "raw": "new-zach@^1.0.1",
+    "name": "new-zach",
+    "escapedName": "new-zach",
     "rawSpec": "^1.0.1",
     "saveSpec": null,
     "fetchSpec": "^1.0.1"
@@ -31,7 +31,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/anup-yogesh/-/anup-yogesh-1.0.1.tgz",
+  "_resolved": "https://registry.npmjs.org/zachshish/-/zachshish-1.0.1.tgz",
   "_shasum": "d8f4d5887dbfc85155c8ef46a052705f57704a76",
   "_spec": "anup-yogesh@^1.0.1",
   "_where": "/home/runner/GEGE-WALA-LANG",
